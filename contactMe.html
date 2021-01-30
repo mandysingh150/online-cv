@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+
+<body>
+    <h1>My Contact Details</h1>
+    <p><strong>Address : </strong>James Street, NYC, USA</p>
+    <p><strong>Email : </strong>mandysingh150@gmail.com</p>
+    <p><strong>Mobile : </strong>9582XXX972</p>
+    <br>
+    <hr size="2" noshade>
+    <br>
+    
+    <!-- encoding type(enctype) specifies that the data displayed in the mail should be in readable format -->
+    <form action="mailto:mandysingh150@gmail.com" method="post" enctype="text/plain">
+        <fieldset>
+            <legend>Enter your Details</legend>
+            <label for="Your Name">Your Name:</label>
+            <input type="text" name="Name" id="Your Name" size="25px"><br>
+            <label for="Your Email">Your Email:</label>
+            <input type="email" name="Email" id="Your email" size="25px"><br>
+            <label for="Your Message">Your Message:</label><br>
+            <textarea name="Message" id="Your Message" cols="30" rows="5"></textarea><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+
+    <br>
+    <h3><a href="index.html">HOME</a></h3>
+</body>
+
+</html>
